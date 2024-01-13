@@ -1,6 +1,136 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
+
+
+body {
+    height: 200vh;
+    /* width: 100vw; */
+    /* background-color: rgb(133, 133, 133); */
+}
+
+.header {
+    background-color: rgb(230, 230, 230);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+
+.logo {
+    /* background-color: blueviolet; */
+    position: relative;
+    padding: 20px;
+    height: 80px;
+    width: 250px;
+ margin-left: 30px;
+    padding-left: 30px;
+}
+
+.logo:hover  .logo_text{
+    /* background-color: rgb(36, 36, 36); */
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    position: absolute;
+    padding-top:7px;
+    padding-left: 50px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    visibility: visible;
+    margin-top: 0px;
+margin-left: 0px;
+cursor: pointer;
+    
+}
+
+
+
+.logo_text{
+    /* background-color: rgb(36, 36, 36); */
+    height: 20px;
+    width: 80px;
+    font-size: 0px;
+    position: absolute;
+margin-top: 10px;
+margin-left: 20px;
+    padding-top:7px;
+    padding-left: 50px;
+    border-radius: 5px;
+    color:transparent;
+    transition: .5s;
+    visibility: hidden;
+    /* opacity: 0.5; */
+    font-family: "Lemon", serif;
+    
+}
+
+
+img{
+    position: absolute;
+    top: 0;
+    left: 90px;
+    height: 80px;
+    transition: .7s;
+}
+
+.logo:hover img {
+    top: 10px;
+left: 10px;
+    height: 60px;
+
+}
+
+.nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width: 500px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#menu{
+    /* background-color: aqua; */
+    margin-left: 20px;
+}
+
+.tab{
+    position: relative;
+    height: 40px;
+    width: 120px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.tab::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid;
+    width: 0;
+    transition: ease-in-out .3s;
+    
+
+}
+
+.tab:hover::before{
+    width: 100%;
+  
+}
+
+.tab:hover, #menu:hover{
+    cursor: pointer;
+}
+
