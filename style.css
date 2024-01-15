@@ -29,6 +29,7 @@ body {
 }
 
 .header:hover {
+    /* background-color: rgb(230, 230, 230,0.6); */
     border-top-left-radius: 40px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 50px;
@@ -60,10 +61,10 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     cursor: pointer;
-    animation: lightPassingThrough 2s infinite;
+    animation: logotextani 2s infinite;
 }
 
-@keyframes lightPassingThrough {
+@keyframes logotextani {
     0% {
         transform: translate(2px, 4px);
     }
