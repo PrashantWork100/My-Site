@@ -4,10 +4,9 @@
     box-sizing: border-box;
    
 }
-
-
 body {
     height: 200vh;
+    background-color: black;
     /* width: 100vw; */
     /* background-color: rgb(133, 133, 133); */
 }
@@ -19,7 +18,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid gray;
+    border-top-left-radius: 0px ;
+   border-bottom-left-radius:0px ;
+   border-top-right-radius: 50px ;
+   border-bottom-right-radius:50px ;
+}
+
+.header:hover{
+   border-top-left-radius: 50px ;
+   border-bottom-left-radius: 50px ;
+   border-top-right-radius: 0px ;
+   border-bottom-right-radius:0px ;
+transition: 0.5s;
 }
 
 .logo {
@@ -32,7 +42,7 @@ body {
     padding-left: 30px;
 }
 
-.logo:hover  .logo_text{
+.header:hover  .logo_text{
     /* background-color: rgb(36, 36, 36); */
     height: 40px;
     width: 200px;
@@ -63,10 +73,10 @@ margin-left: 20px;
     padding-left: 50px;
     border-radius: 5px;
     color:transparent;
-    transition: .5s;
+    transition: .2s;
     visibility: hidden;
     /* opacity: 0.5; */
-    font-family: "Lemon", serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
 }
 
@@ -76,10 +86,10 @@ img{
     top: 0;
     left: 90px;
     height: 80px;
-    transition: .7s;
+    transition: .3s;
 }
 
-.logo:hover img {
+.header:hover img {
     top: 10px;
 left: 10px;
     height: 60px;
@@ -132,5 +142,10 @@ left: 10px;
 
 .tab:hover, #menu:hover{
     cursor: pointer;
+}
+.hero{
+background-color: aliceblue;
+    height: 200vh;
+    width: 100vw;
 }
 
