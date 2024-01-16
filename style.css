@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 100%;
     background-color: black;
     /* width: 100vw; */
     /* background-color: rgb(133, 133, 133); */
@@ -16,12 +16,12 @@ body {
 .hero {
 position: absolute;
 margin-top: 110px;
-    height: 200vh;
+    height: 100%;
     width: 100%;
 }
 
 .section1 {
-    background-color: rgb(255, 249, 235);
+    background-color: rgb(129, 129, 129);
     height: 60vh;
     width: 100%;
     border-top-left-radius: 50px;
@@ -43,8 +43,8 @@ margin-top: 110px;
 }
 
 .section2 {
-    background-color: rgb(255, 249, 235);
-    height: 60vh;
+    background-color: rgb(129, 129, 129);
+    height: 90vh;
     width: 100%;
     margin: 6px;
     border-top-left-radius: 60px;
@@ -66,24 +66,22 @@ margin-top: 110px;
 }
 
 .section3 {
-    background-color: rgb(255, 249, 235);
-    height: 60vh;
+    background-color: rgb(129, 129, 129);
+    height: 40vh;
     width: 100%;
-    margin: 6px;
-    border-top-left-radius: 60px;
-    border-bottom-left-radius: 20px;
-    border-top-right-radius: 120px;
-    border-bottom-right-radius: 10px;
-    transition: 1s;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 75px;
+    transition: 2s;
 }
 
 
-.section:hover {
+.section3:hover {
 
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 75px;
-    border-bottom-right-radius: 40px;
-    transition: 1s;
-
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 50px;
+    transition: 2s;
 }

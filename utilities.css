@@ -6,16 +6,17 @@
 }
 
 body {
-    height: 200vh;
+    height: 100%;
     background-color: black;
     /* width: 100vw; */
     /* background-color: rgb(133, 133, 133); */
     overflow-x: hidden;
+    
 }
 
 .header {
     position: fixed;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(74, 74, 74);
     height: 100px;
     width: 100%;
     margin: 5px;
@@ -58,7 +59,7 @@ z-index: 1;
     padding-top: 7px;
     padding-left: 50px;
     border-radius: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     visibility: visible;
     margin-top: 0px;
     margin-left: 0px;
@@ -148,31 +149,31 @@ img {
     0% {
         border-width: 4px;
         border-color: #ffffff;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     }
 
     25% {
         border-width: 4px;
         border-color: #bbbbbb;
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 30pxrgba(255, 255, 255, 0.8);
     }
 
     50% {
         border-width: 4px;
         border-color: #9c9b9b;
-        box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 40pxrgba(255, 255, 255, 0.8);
     }
 
     75% {
         border-width: 4px;
         border-color: #bebebe;
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 30pxrgba(255, 255, 255, 0.8);
     }
 
     100% {
         border-width: 4px;
         border-color: #ffffff;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     }
 }
 
@@ -212,7 +213,7 @@ img {
     width: 120px;
     padding-top: 10px;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
    
 
@@ -223,10 +224,10 @@ img {
     position: absolute;
     bottom: 0;
     left: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(255, 255, 255);
     
     width: 0;
-    transition: ease-in-out .3s;
+    transition: ease-in-out .9s;
   
 
 
@@ -236,6 +237,7 @@ img {
     width: 100%;
     border-radius: 30px;
     border-bottom: 2px solid black;
+    transition: ease-in-out .5s;
 
 }
 
