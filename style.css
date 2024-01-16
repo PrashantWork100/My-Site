@@ -16,33 +16,34 @@ body {
 .hero {
 position: absolute;
 margin-top: 110px;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
-.section1 {
+#section1 {
     background-color: rgb(129, 129, 129);
-    height: 60vh;
+    padding: 40px;
+    height: 100%;
     width: 100%;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 60px;
-    border-top-right-radius: 100px;
+    border-top-right-radius: 150px;
     border-bottom-right-radius: 75px;
     transition: 2s;
 }
 
 
-.section1:hover {
+#section1:hover {
 
     border-top-left-radius: 120px;
     border-bottom-left-radius: 40px;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 100px;
     border-bottom-right-radius: 50px;
     transition: 2s;
 
 }
 
-.section2 {
+#section2 {
     background-color: rgb(129, 129, 129);
     height: 90vh;
     width: 100%;
@@ -55,7 +56,7 @@ margin-top: 110px;
 }
 
 
-.section2:hover {
+#section2:hover {
 
     border-top-left-radius: 20px;
     border-bottom-left-radius: 50px;
@@ -65,9 +66,9 @@ margin-top: 110px;
 
 }
 
-.section3 {
+#section3 {
     background-color: rgb(129, 129, 129);
-    height: 40vh;
+    height: 100vh;
     width: 100%;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 60px;
@@ -77,11 +78,315 @@ margin-top: 110px;
 }
 
 
-.section3:hover {
+#section3:hover {
 
     border-top-left-radius: 120px;
     border-bottom-left-radius: 40px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 50px;
     transition: 2s;
+}
+
+.about{
+    
+    height: 200px;
+    margin: 10px;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+
+    background-color: rgba(174, 171, 171,0.1);
+  border-radius: 70px;
+    transition: 1s;
+}
+.about:hover{
+    
+    background-color: rgba(240, 255, 255,.5);
+    transition: 1s;
+}
+
+#about1{
+
+    background-color: transparent;
+    height: 200px;
+    margin: 10px;
+    padding-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    transition: 3s;
+    color: black;
+  
+
+}
+
+#aboutpashya{
+ 
+    color: azure; 
+    transition: 3s;
+    
+}
+
+#a{
+    background: linear-gradient(to right,azure,rgb(39, 39, 39));
+    -webkit-background-clip: text;
+    color: transparent;
+  font-weight: bold;
+  animation: a 3s ease-in-out infinite;
+  animation-direction: alternate-reverse;
+}
+
+
+@keyframes a {
+    0%{        background: linear-gradient(to right,azure,rgb(100,100,100));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    1%{        background: linear-gradient(to right,azure,rgb(99,99,99));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    2%{        background: linear-gradient(to right,azure,rgb(98,98,98));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    3%{        background: linear-gradient(to right,azure,rgb(97,97,97));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    4%{        background: linear-gradient(to right,azure,rgb(96,96,96));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    5%{        background: linear-gradient(to right,azure,rgb(95,95,95));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    6%{        background: linear-gradient(to right,azure,rgb(94,94,94));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    7%{        background: linear-gradient(to right,azure,rgb(93,93,93));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    8%{        background: linear-gradient(to right,azure,rgb(92,92,92));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    9%{        background: linear-gradient(to right,azure,rgb(91,91,91));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    10%{        background: linear-gradient(to right,azure,rgb(90,90,90));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    11%{        background: linear-gradient(to right,azure,rgb(89,89,89));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    12%{        background: linear-gradient(to right,azure,rgb(88,88,88));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    13%{        background: linear-gradient(to right,azure,rgb(87,87,87));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    14%{        background: linear-gradient(to right,azure,rgb(86,86,86));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    15%{        background: linear-gradient(to right,azure,rgb(85,85,85));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    16%{        background: linear-gradient(to right,azure,rgb(84,84,84));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    17%{        background: linear-gradient(to right,azure,rgb(83,83,83));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    18%{        background: linear-gradient(to right,azure,rgb(82,82,82));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    19%{        background: linear-gradient(to right,azure,rgb(81,81,81));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    20%{        background: linear-gradient(to right,azure,rgb(80,80,80));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    21%{        background: linear-gradient(to right,azure,rgb(79,79,79));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    22%{        background: linear-gradient(to right,azure,rgb(78,78,78));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    23%{        background: linear-gradient(to right,azure,rgb(77,77,77));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    24%{        background: linear-gradient(to right,azure,rgb(76,76,76));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    25%{        background: linear-gradient(to right,azure,rgb(75,75,75));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    26%{        background: linear-gradient(to right,azure,rgb(74,74,74));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    27%{        background: linear-gradient(to right,azure,rgb(73,73,73));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    28%{        background: linear-gradient(to right,azure,rgb(72,72,72));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    29%{        background: linear-gradient(to right,azure,rgb(71,71,71));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    30%{        background: linear-gradient(to right,azure,rgb(70,70,70));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    31%{        background: linear-gradient(to right,azure,rgb(69,69,69));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    32%{        background: linear-gradient(to right,azure,rgb(68,68,68));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    33%{        background: linear-gradient(to right,azure,rgb(67,67,67));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    34%{        background: linear-gradient(to right,azure,rgb(66,66,66));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    35%{        background: linear-gradient(to right,azure,rgb(65,65,65));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    36%{        background: linear-gradient(to right,azure,rgb(64,64,64));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    37%{        background: linear-gradient(to right,azure,rgb(63,63,63));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    38%{        background: linear-gradient(to right,azure,rgb(62,62,62));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    39%{        background: linear-gradient(to right,azure,rgb(61,61,61));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    40%{        background: linear-gradient(to right,azure,rgb(60,60,60));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    41%{        background: linear-gradient(to right,azure,rgb(59,59,59));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    42%{        background: linear-gradient(to right,azure,rgb(58,58,58));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    43%{        background: linear-gradient(to right,azure,rgb(57,57,57));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    44%{        background: linear-gradient(to right,azure,rgb(56,56,56));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    45%{        background: linear-gradient(to right,azure,rgb(55,55,55));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    46%{        background: linear-gradient(to right,azure,rgb(54,54,54));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    47%{        background: linear-gradient(to right,azure,rgb(53,53,53));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    48%{        background: linear-gradient(to right,azure,rgb(52,52,52));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    49%{        background: linear-gradient(to right,azure,rgb(51,51,51));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    50%{        background: linear-gradient(to right,azure,rgb(50,50,50));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    51%{        background: linear-gradient(to right,azure,rgb(49,49,49));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    52%{        background: linear-gradient(to right,azure,rgb(48,48,48));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    53%{        background: linear-gradient(to right,azure,rgb(47,47,47));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    54%{        background: linear-gradient(to right,azure,rgb(46,46,46));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    55%{        background: linear-gradient(to right,azure,rgb(45,45,45));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    56%{        background: linear-gradient(to right,azure,rgb(44,44,44));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    57%{        background: linear-gradient(to right,azure,rgb(43,43,43));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    58%{        background: linear-gradient(to right,azure,rgb(42,42,42));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    59%{        background: linear-gradient(to right,azure,rgb(41,41,41));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    60%{        background: linear-gradient(to right,azure,rgb(40,40,40));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    61%{        background: linear-gradient(to right,azure,rgb(39,39,39));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    62%{        background: linear-gradient(to right,azure,rgb(38,38,38));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    63%{        background: linear-gradient(to right,azure,rgb(37,37,37));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    64%{        background: linear-gradient(to right,azure,rgb(36,36,36));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    65%{        background: linear-gradient(to right,azure,rgb(35,35,35));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    66%{        background: linear-gradient(to right,azure,rgb(34,34,34));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    67%{        background: linear-gradient(to right,azure,rgb(33,33,33));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    68%{        background: linear-gradient(to right,azure,rgb(32,32,32));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    69%{        background: linear-gradient(to right,azure,rgb(31,31,31));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    70%{        background: linear-gradient(to right,azure,rgb(30,30,30));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    71%{        background: linear-gradient(to right,azure,rgb(29,29,29));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    72%{        background: linear-gradient(to right,azure,rgb(28,28,28));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    73%{        background: linear-gradient(to right,azure,rgb(27,27,27));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    74%{        background: linear-gradient(to right,azure,rgb(26,26,26));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    75%{        background: linear-gradient(to right,azure,rgb(25,25,25));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    76%{        background: linear-gradient(to right,azure,rgb(24,24,24));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    77%{        background: linear-gradient(to right,azure,rgb(23,23,23));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    78%{        background: linear-gradient(to right,azure,rgb(22,22,22));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    79%{        background: linear-gradient(to right,azure,rgb(21,21,21));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    80%{        background: linear-gradient(to right,azure,rgb(20,20,20));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    81%{        background: linear-gradient(to right,azure,rgb(19,19,19));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    82%{        background: linear-gradient(to right,azure,rgb(18,18,18));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    83%{        background: linear-gradient(to right,azure,rgb(17,17,17));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    84%{        background: linear-gradient(to right,azure,rgb(16,16,16));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    85%{        background: linear-gradient(to right,azure,rgb(15,15,15));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    86%{        background: linear-gradient(to right,azure,rgb(14,14,14));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    87%{        background: linear-gradient(to right,azure,rgb(13,13,13));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    88%{        background: linear-gradient(to right,azure,rgb(12,12,12));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    89%{        background: linear-gradient(to right,azure,rgb(11,11,11));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    90%{        background: linear-gradient(to right,azure,rgb(10,10,10));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    91%{        background: linear-gradient(to right,azure,rgb(9,9,9));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    92%{        background: linear-gradient(to right,azure,rgb(8,8,8));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    93%{        background: linear-gradient(to right,azure,rgb(7,7,7));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    94%{        background: linear-gradient(to right,azure,rgb(6,6,6));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    95%{        background: linear-gradient(to right,azure,rgb(5,5,5));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    96%{        background: linear-gradient(to right,azure,rgb(4,4,4));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    97%{        background: linear-gradient(to right,azure,rgb(3,3,3));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    98%{        background: linear-gradient(to right,azure,rgb(2,2,2));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    99%{        background: linear-gradient(to right,azure,rgb(1,1,1));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    100%{        background: linear-gradient(to right,azure,rgb(0,0,0));    -webkit-background-clip: text;    color: transparent;  font-weight: bold;}
+    
+    
+}    
+
+/* 
+#about1:hover #A{
+color: black;
+transition: 3s;
+}
+#about1:hover #a{
+    color: white;
+    transition: 3s;
+    } */
+
+/* 
+   #A{
+        animation: A 1s ease-in-out infinite;
+    }
+    
+
+@keyframes A {
+    0%{ color: black;
+            }
+    50%{
+            color: white;
+            }
+}
+
+#a{
+    animation: a 5s ease-in-out infinite;
+}
+
+@keyframes a {
+0%{
+        color: rgb(255, 255, 255);
+        }
+50%{
+        color: rgb(0, 0, 0);
+        }
+} */
+
+
+#about2 {
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 55px;
+    transition: 3s;
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    font-weight: bolder;
+    
+}
+
+
+#about2:hover {
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 140px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 100px;
+    transition: 3s;
+
+}
+
+#about3  {
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 10px;
+    transition: 3s;
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    font-weight: bolder;
+  
+}
+
+
+#about3:hover {
+
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 140px;
+    transition: 3s;
+
+}
+
+
+
+
+.gallery {
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .5), rgba(255, 255, 255, 0));
+
+    background-color: rgba(174, 171, 171,0.1);
+
+    transition: 1s;
+}
+
+.image {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.5);
+    transition: .5s ease-in-out;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-content {
+    max-width: 80%;
+    max-height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
 }

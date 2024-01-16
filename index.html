@@ -26,21 +26,44 @@
           </div>
         </div>
       <div class="nav">
-        <a id="tab1" class="tab"  onclick="jumpToSection('section1')">About</a>
-        <a id="tab2" class="tab"  onclick="jumpToSection('section2')">Work</a>
-        <a id="tab3" class="tab"  onclick="jumpToSection('section3')">Contact</a>
+        <a id="tab1" class="tab" onclick="jumpToSection('section1',this)">About</a>
+        <a id="tab2" class="tab" onclick="jumpToSection('section2',this)">Work</a>
+        <a id="tab3" class="tab" onclick="jumpToSection('section3',this)">Contact</a>
         <!-- <i id="menu" class="ri-menu-line"></i> -->
         <!-- <i id="menu" class="ri-brush-fill"></i> -->
       </div>
     </div>
     <div class="hero">
-      <div id="section1" class="section1">
+      <div id="section1" class="section">
+<div id="about1" >
+<span id="aboutpashya">Pash</span><span id="a">yaa</span>rt
+</div>
+<div id="about2"class="about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea possimus, nam quaerat illo, cumque debitis nesciunt culpa laborum repellendus voluptas voluptate nobis delectus officiis! Labore id assumenda odio reprehenderit explicabo.
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br><br>Ea possimus, nam quaerat illo, cumque debitis nesciunt culpa laborum repellendus voluptas voluptate nobis delectus officiis! Labore id assumenda odio reprehenderit explicabo.
+</div>
+<div id="about3"class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias sit impedit! Tempora aliquam nobis voluptate fugit quibusdam aspernatur perferendis impedit officiis iure iste delectus, molestiae assumenda distinctio nihil totam omnis atque earum repellendus architecto tenetur ipsam laudantium? Magni reprehenderit deleniti fuga at delectus, laudantium praesentium explicabo consequatur autem voluptatibus.</div>
+
+
 
       </div>
-      <div id="section2" class="section2">
-
+      <div id="section2" class="section">
+        <div class="gallery">
+          <div class="image" style="background-image: url('2.jpg');"></div>
+          <div class="image" style="background-image: url('3.jpg');"></div>
+          <div class="image" style="background-image: url('1.jpg');"></div>
+          <div class="image" style="background-image: url('7.jpg');"></div>
+          <div class="image" style="background-image: url('4.jpg');"></div>
+          <div class="image" style="background-image: url('6.jpg');"></div>
+          <!-- <div class="image" style="background-image: url('7.jpg');"></div> -->
+        
       </div>
-      <div id="section3" class="section3">
+  
+      <div class="lightbox" id="lightbox">
+          <div class="lightbox-content" id="lightbox-content"></div>
+          <span class="close" onclick="closeLightbox()">&times;</span>
+      </div>
+      </div>
+      <div id="section3" class="section">
 
       </div>
     </div>
