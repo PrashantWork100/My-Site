@@ -32,15 +32,3 @@ function jumpToSection(sectionId, clickedLink) {
   });
 
 
-
-  function openLightbox(imageUrl) {
-    const lightbox = document.getElementById('lightbox');
-    const lightboxContent = document.getElementById('lightbox-content');
-    lightboxContent.style.backgroundImage = `url(${imageUrl})`;
-    lightbox.style.display = 'flex';
-}
-
-function closeLightbox() {
-    const lightbox = document.getElementById('lightbox');
-    lightbox.style.display = 'none';
-}
