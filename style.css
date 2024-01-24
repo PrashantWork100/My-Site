@@ -8,6 +8,7 @@
 body {
     height: 100%;
     background-color: black;
+    user-select: none;
     /* width: 100vw; */
     /* background-color: rgb(133, 133, 133); */
 }
@@ -114,6 +115,7 @@ margin-top: 110px;
     font-weight: bold;
     transition: 3s;
     color: black;
+
   
 
 }
@@ -289,10 +291,15 @@ transition: 3s;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 50px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
+    font-size: large;
+    line-height: 30px;
     
 }
 
+.bold{
+    font-size: larger;
+}
 
 #about2:hover {
 
@@ -313,8 +320,9 @@ transition: 3s;
 
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 50px;
-    font-weight: bolder;
+    padding: 40px;
+    /* font-weight: bolder; */
+    line-height: 23px;
   
 }
 
@@ -334,8 +342,9 @@ transition: 3s;
 
 .gallery {
     height: 80%;
+    width: 100vw;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     align-items: center;
 
@@ -348,7 +357,7 @@ border-bottom: 5px solid white;
 
 .image {
     width: 200px;
-    height: 400px;
+    height: 60%;
     margin: 10px;
     background-size: cover;
     background-position: center;
@@ -364,7 +373,8 @@ border-bottom: 5px solid white;
 
 
 #gall_text{
-    font: 100px solid ;
+    font: 80px solid ;
+    /* padding-top: 20px; */
     color: azure;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -374,14 +384,20 @@ border-bottom: 5px solid white;
 
 #section3{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* align-items: center; */
+    transition: 1s;
 }
 
 .contact{
-    transform: rotate(-90deg);
-    font: 60px solid ;
+ 
+    font: 50px solid ;
     color: azure;
-    padding-top: 200px;
-   
+    padding: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+    width: 40%;
 }
+
+
+

@@ -32,3 +32,26 @@ function jumpToSection(sectionId, clickedLink) {
   });
 
 
+
+  window.addEventListener('scroll', function() {
+    const s3 = document.querySelector('#section3');
+    const textElement = document.querySelector('#con_text');
+  
+    if (s3 && textElement) {
+      const top = s3.offsetTop - 400;
+
+  
+      if (window.scrollY >= top) {
+      
+        textElement.style.transition =  'padding-top .5s ease';
+        textElement.style.paddingTop = '0px';
+
+      } else {
+      
+        textElement.style.transition =  'padding-top .5s ease';
+        textElement.style.paddingTop = '400px';
+      }
+    }
+  });
+  
+  
