@@ -353,6 +353,7 @@ transition: 3s;
     background-color: rgba(174, 171, 171,0.1);
 border-bottom: 5px solid white;
     transition: 1s;
+
 }
 
 .image {
@@ -383,21 +384,153 @@ border-bottom: 5px solid white;
 
 
 #section3{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+    height: 90vh;
     transition: 1s;
 }
 
-.contact{
- 
+.connect{
+    height: 20vh;
     font: 50px solid ;
     color: azure;
-    padding: 50px;
+    padding: 90px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: 1s;
-    width: 40%;
 }
 
 
+.contactdetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.yt{
+    position: relative;
+    height: 15vh;
+    width: 30vw;
+    padding-left: 400px;
+  
+}
+
+.yt_text{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+#yt_text{
+    position: absolute;
+    text-decoration: none;
+    padding-top: 80px;
+    padding-left: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font: 60px solid;
+}
+
+#ytimg{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: .5s;
+   
+}
+
+.ytimg{
+    margin-top: -100px;
+    height: 150px;
+    width: auto;
+    transition: .5s;
+}
+
+#ytimg:hover .ytimg {
+    margin-top: -150px;
+    height: 250px;
+    width: auto;
+    transition: .7s;
+    animation: shake .5s ease;
+}
+
+#instaimg:hover .instaimg {
+    margin-top: -120px;
+    height: 180px;
+    width: auto;
+    transition: .7s;
+    animation: shake .5s ease;
+}
+
+@keyframes shake{
+70% {
+    transform: rotate(-30deg);
+}
+85% {
+    transform: rotate(10deg);
+}
+90% {
+    transform: rotate(-10deg);
+}
+95% {
+    transform: rotate(10deg);
+}
+
+}
+
+
+.insta{
+    position: relative;
+    height: 15vh;
+    width: 30vw;
+   
+  
+}
+
+.insta_text{
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    
+}
+
+#insta_text{
+padding-left: 200px;
+visibility: hidden;
+transition: .5s;
+}
+
+
+
+
+.insta:hover #insta_text{
+    position: absolute;
+    text-decoration: none;
+    padding-top: 130px;
+    padding-left: 100px;
+    color: #fff;
+    font: 60px solid;
+    transition: 1.4s ease;
+    visibility: visible;
+}
+
+
+
+#instaimg{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transition: .5s;
+}
+
+.instaimg{
+    margin-top: -70px;
+    height: 100px;
+    width: auto;
+    transition: .5s;
+}
 

@@ -135,7 +135,7 @@ z-index: 1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-img {
+#logo {
     position: absolute;
     top: 0;
     left: 90px;
@@ -179,7 +179,7 @@ img {
 }
 
 
-.header:hover img {
+.header:hover #logo {
     top: 10px;
     left: 10px;
     height: 60px;

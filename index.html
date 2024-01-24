@@ -4,76 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="utilities.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lemon&display=swap"
+      rel="stylesheet"
+    />
     <title>My Site</title>
   </head>
   <body>
     <div id="header" class="header">
       <div class="logo">
         <div class="logo_text">
-            <h3><span>Pashya</span> Art</h3>
+          <h3><span>Pashya</span> Art</h3>
         </div>
 
         <div class="logo_bg">
-              <img src="Logo.png" alt="logo" />
-          </div>
+          <img id="logo" src="Logo.png" alt="logo" />
         </div>
+      </div>
       <div class="nav">
-        <a id="tab1" class="tab" onclick="jumpToSection('section1',this)">About</a>
-        <a id="tab2" class="tab" onclick="jumpToSection('section2',this)">Work</a>
-        <a id="tab3" class="tab" onclick="jumpToSection('section3',this)">Contact</a>
+        <a id="tab1" class="tab" onclick="jumpToSection('section1',this)"
+          >About</a
+        >
+        <a id="tab2" class="tab" onclick="jumpToSection('section2',this)"
+          >Work</a
+        >
+        <a id="tab3" class="tab" onclick="jumpToSection('section3',this)"
+          >Connect</a
+        >
         <!-- <i id="menu" class="ri-menu-line"></i> -->
         <!-- <i id="menu" class="ri-brush-fill"></i> -->
       </div>
     </div>
     <div class="hero">
       <div id="section1" class="section">
-<div id="about1" >
-<span id="aboutpashya">Pash</span><span id="a">yaa</span>rt
-</div>
-<div id="about2"class="about">Welcome to <span class="bold">Pashya Art</span>, where creativity knows no boundaries. I'm Prashant Sutar, a self-taught painter and illustrator, and this space is a testament to my journey of artistic self-discovery. Without formal training, I've forged a unique path in the realm of art, driven by passion, experimentation, and a dedication to unbridled creativity.
-</div>
-<div id="about3"class="about">In the canvas of Pashya Art, my mission transcends the limitations of formal education. I strive to evoke emotions and build connections through the language of visuals. Each brushstroke narrates a story, a reflection of the power of self-taught expression. <br>Whether you're a seasoned art enthusiast, a collector, or someone taking their first steps into the art world, I invite you to explore the boundless creativity within Pashya Art. Connect with me on social media, and consider making a piece of this self-taught journey a part of your own story. Thank you for being a part of this unfolding chapter in artistic exploration!
-
-
-
-
-
-</div>
-
-
-
+        <div id="about1">
+          <span id="aboutpashya">Pash</span><span id="a">yaa</span>rt
+        </div>
+        <div id="about2" class="about">
+          Welcome to <span class="bold">Pashya Art</span>, where creativity
+          knows no boundaries. I'm Prashant Sutar, a self-taught painter and
+          illustrator, and this space is a testament to my journey of artistic
+          self-discovery. Without formal training, I've forged a unique path in
+          the realm of art, driven by passion, experimentation, and a dedication
+          to unbridled creativity.
+        </div>
+        <div id="about3" class="about">
+          In the canvas of Pashya Art, my mission transcends the limitations of
+          formal education. I strive to evoke emotions and build connections
+          through the language of visuals. Each brushstroke narrates a story, a
+          reflection of the power of self-taught expression. <br />Whether
+          you're a seasoned art enthusiast, a collector, or someone taking their
+          first steps into the art world, I invite you to explore the boundless
+          creativity within Pashya Art. Connect with me on social media, and
+          consider making a piece of this self-taught journey a part of your own
+          story. Thank you for being a part of this unfolding chapter in
+          artistic exploration!
+        </div>
       </div>
       <div id="section2" class="section">
         <div class="gallery">
-          <div class="image" style="background-image: url('2.jpg');"></div>
-          <div class="image" style="background-image: url('3.jpg');"></div>
-          <div class="image" style="background-image: url('1.jpg');"></div>
-          <div class="image" style="background-image: url('7.jpg');"></div>
-          <div class="image" style="background-image: url('4.jpg');"></div>
-          <div class="image" style="background-image: url('6.jpg');"></div>
+          <div class="image" style="background-image: url('2.jpg')"></div>
+          <div class="image" style="background-image: url('3.jpg')"></div>
+          <div class="image" style="background-image: url('1.jpg')"></div>
+          <div class="image" style="background-image: url('7.jpg')"></div>
+          <div class="image" style="background-image: url('4.jpg')"></div>
+          <div class="image" style="background-image: url('6.jpg')"></div>
           <!-- <div class="image" style="background-image: url('7.jpg');"></div> -->
-      </div>
-  
-      <h1 id="gall_text">Gallery</h1>
+        </div>
+
+        <h1 id="gall_text">Gallery</h1>
       </div>
 
       <div id="section3" class="section">
-<div class="contact">
-  <h1 id="con_text">
-    Contact
-  </h1>
-</div>
-<div class="contactdetails">
-
-</div>
+        <div class="connect">
+          <h1 id="con_text">Connect</h1>
+        </div>
+        <div class="contactdetails">
+          <div class="yt">
+            <div class="yt_text">
+              <!-- <a id="yt_text" href="#">Youtube</a> -->
+            </div>
+              <div id="ytimg">
+                <a href="https://www.youtube.com/channel/UCX-3-Vrfj1sTJ3n4Ags7VaA" target="_blank"><img class="ytimg" src="yt.png" alt="yt"></a>
+              </div>           
+          </div>
+          <div class="insta">
+            <div class="insta_text">
+              <!-- <a id="insta_text" href="#">Instagram</a> -->
+            </div>
+              <div id="instaimg">
+                <a href="https://www.instagram.com/pashya_art/" target="_blank"><img class="instaimg" src="insta.png" alt="yt"></a>
+              </div>          
+          </div>
+        </div>
       </div>
     </div>
     <div class="footer"></div>
